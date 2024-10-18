@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">BehKhiSng</string>
+    <string name="title_activity_forget_pwd">forget_pwd</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!--    <string name="default_web_client_id">1042227340080-us1f7bla68b85bl6m081098jcs7j4n51.apps.googolplexes.com</string>-->
+
+    <!--    //main.xml-->
+    <string name="main_login">Login</string>
+    <string name="main_rigester">Register</string>
+
+    <!--    //login.xml-->
+    <string name="login_input_account">Account</string>
+    <string name="login_input_pwd">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_forget_pwd">忘記密碼?</string>
+
+    <!--    //forget_pwd.xml-->
+    <string name="input_num">請輸入驗證碼</string>
+    <string name="redesign_num">輸入新密碼</string>
+    <string name="redesign_num_again">再輸入一次</string>
+    <string name="submit">確認</string>
+    <string name="resend">重新發送</string>
+
+    <!--    //register-->
+    <string name="register_email">Email</string>
+    <string name="register_pwd">Password</string>
+    <string name="register_submit">Submit</string>
+    <string name="lookschedule"><u>查看我的行程</u></string>
+    <string name="logout">登出</string>
+
+    <!--input_schedule-->
+    <string-array name="Spinner_item">
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>基隆市</item>
+        <item>宜蘭縣</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+        <item>新竹市</item>
+        <item>苗栗縣</item>
+        <item>台中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>台南市</item>
+        <item>高雄市</item>
+        <item>屏東市</item>
+        <item>花蓮縣</item>
+        <item>台東縣</item>
+        <item>澎湖縣</item>
+        <item>金門縣</item>
+
+    </string-array>
+
+    <string-array name="Spinner_item02">
+        <item>1位</item>
+        <item>2位</item>
+        <item>3位</item>
+        <item>4位</item>
+        <item>5位</item>
+        <item>6位</item>
+        <item>7位</item>
+        <item>8位</item>
+    </string-array>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+</resources>

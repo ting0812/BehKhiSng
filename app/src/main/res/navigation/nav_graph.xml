@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_hotel">
+
+    <fragment
+        android:id="@+id/fragment_choose"
+        android:name="com.example.myteam.Fragment_choose"
+        android:label="fragment_choose"
+        tools:layout="@layout/fragment_choose" />
+
+    <fragment
+        android:id="@+id/fragment_mylove"
+        android:name="com.example.myteam.Fragment_mylove"
+        android:label="fragment_mylove"
+        tools:layout="@layout/fragment_mylove" />
+    <fragment
+        android:id="@+id/fragment_hotel"
+        android:name="com.example.myteam.Fragment_hotel"
+        android:label="fragment_hotel"
+        tools:layout="@layout/fragment_hotel" />
+</navigation>

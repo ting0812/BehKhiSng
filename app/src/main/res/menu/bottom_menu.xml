@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_hotel"
+        android:title="飯店"
+        android:icon="@drawable/ic_hotel"/>
+
+    <item
+        android:id="@+id/fragment_choose"
+        android:title="篩選"
+        android:icon="@drawable/ic_filter"/>
+
+    <item
+        android:id="@+id/fragment_mylove"
+        android:title="我的最愛"
+        android:icon="@drawable/ic_favorite"/>
+</menu>

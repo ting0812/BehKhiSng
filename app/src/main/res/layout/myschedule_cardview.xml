@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/image_mytrip"
+            android:src="@drawable/main_foot"
+            />
+
+        <TextView
+            android:id="@+id/tripname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/image_mytrip"
+            android:layout_toRightOf="@+id/image_mytrip"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/my_begindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tripname"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/image_mytrip"
+            android:layout_toRightOf="@+id/image_mytrip"
+            android:text="Description"
+            android:textColor="@color/lightGrayColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/my_enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/my_begindate"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/image_mytrip"
+            android:layout_toRightOf="@+id/image_mytrip"
+            android:text="Description"
+            android:textColor="@color/lightGrayColor"
+            android:textSize="18sp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/people"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/my_enddate"-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_toEndOf="@+id/image_mytrip"-->
+<!--            android:layout_toRightOf="@+id/image_mytrip"-->
+<!--            android:text="Description"-->
+<!--            android:textColor="@color/lightGrayColor"-->
+<!--            android:textSize="18sp" />-->
+
+
+        <ImageButton
+            android:id="@+id/delete_mylove"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="320dp"
+            android:background="@drawable/ic_delete" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".click_hotelchoose"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hotelbgc">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/hotelbgc"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/choose_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/main_foot" />
+
+            <TextView
+                android:id="@+id/choose_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose_googlemap_btn"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="Title"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/choose_money"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/choose_name"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:id="@+id/choose_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose_money"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/choose_introduction"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/choose_address"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:text="Description"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <!--google登入-->
+            <Button
+                android:id="@+id/choose_googlemap_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/choose_image"
+                android:layout_marginLeft="170dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/ic_location" />
+
+            <Button
+                android:id="@+id/to_res_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/choose_introduction"
+                android:layout_marginLeft="66dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:text="附近餐廳"
+                android:textSize="18dp"
+                android:textColor="@color/darkwhite"
+                android:background="@color/btn"/>
+
+            <Button
+                android:id="@+id/to_attractions_btn"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/choose_introduction"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="13dp"
+                android:textStyle="bold"
+                android:text="附近景點"
+                android:textSize="18dp"
+                android:textColor="@color/darkwhite"
+                android:background="@color/btn"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

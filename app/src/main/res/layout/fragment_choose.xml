@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment_choose">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/themes_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="關鍵字篩選"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <CheckBox
+            android:id="@+id/environment"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_leaves"
+            android:drawablePadding="5dp"
+            android:text="環保"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.088" />
+
+        <CheckBox
+            android:id="@+id/three_star"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_three_stars"
+            android:drawablePadding="5dp"
+            android:text="三星級"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.088" />
+
+        <CheckBox
+            android:id="@+id/four_star"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_four_star"
+            android:drawablePadding="5dp"
+            android:text="四星級"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <CheckBox
+            android:id="@+id/child"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_bear"
+            android:drawablePadding="5dp"
+            android:text="親子"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <CheckBox
+            android:id="@+id/bussiness"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_suitcase"
+            android:drawablePadding="5dp"
+            android:text="商務"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.191" />
+
+        <CheckBox
+            android:id="@+id/five_star"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_five_star"
+            android:drawablePadding="5dp"
+            android:text="五星級"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.864"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294" />
+
+        <CheckBox
+            android:id="@+id/hotspring"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_hot"
+            android:drawablePadding="5dp"
+            android:text="溫泉"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294" />
+
+        <CheckBox
+            android:id="@+id/camp"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_camp"
+            android:drawablePadding="5dp"
+            android:text="露營"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294" />
+
+        <CheckBox
+            android:id="@+id/traffic"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_car"
+            android:drawablePadding="6dp"
+            android:text="交通便利"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.931"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <CheckBox
+            android:id="@+id/sky"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_moon"
+            android:drawablePadding="5dp"
+            android:text="星空"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <CheckBox
+            android:id="@+id/young_people"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_sleep"
+            android:drawablePadding="5dp"
+            android:text="青旅"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.421"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.397" />
+
+        <CheckBox
+            android:id="@+id/smart"
+            android:layout_width="105dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_smart"
+            android:drawablePadding="4dp"
+            android:text="智能"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.088" />
+
+
+        <!--預算篩選-->
+
+
+        <CheckBox
+            android:id="@+id/fourthousand_fivethousand"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="4000~5000元"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.835" />
+
+        <CheckBox
+            android:id="@+id/fivethousand_up"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="5000元以上"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.833" />
+
+        <CheckBox
+            android:id="@+id/twothousand_threethousand"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="2000~3000元"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.052"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.732" />
+
+        <CheckBox
+            android:id="@+id/onethousand_down"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="1000元以下"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.053"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.625" />
+
+        <CheckBox
+            android:id="@+id/onethousand_twothousand"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="1000~2000元"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.623" />
+
+        <CheckBox
+            android:id="@+id/threethousand_fourthousand"
+            android:layout_width="165dp"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/ic_nt"
+            android:drawablePadding="5dp"
+            android:text="3000~4000元"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.776"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.73" />
+
+        <TextView
+            android:id="@+id/money_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="預算篩選"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.048"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.536" />
+
+        <Button
+            android:id="@+id/hotel_result_btn"
+            android:layout_width="200dp"
+            android:layout_height="63dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="顯示結果"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.971"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.97" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
